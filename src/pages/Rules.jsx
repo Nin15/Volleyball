@@ -34,7 +34,7 @@ export default function Rules({}) {
   return (
     <div
       style={{
-        backgroundImage: "url('./homebackground.jpg')",
+        backgroundImage: "url('/homebackground.jpg')",
         width: "100%",
         height: "100%",
         backgroundAttachment: "fixed",
@@ -122,7 +122,7 @@ export default function Rules({}) {
 
                   <img
                     onClick={doZoom}
-                    src="./court.jpg"
+                    src="/court.jpg"
                     alt="Court dimensions"
                     style={{
                       borderRadius: "20px",
@@ -354,7 +354,7 @@ export default function Rules({}) {
           >
             <img
               onClick={closeZoom}
-              src="./court.jpg"
+              src="/court.jpg"
               alt="Court dimensions zoomed"
               style={{
                 cursor: "pointer",

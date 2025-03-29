@@ -8,7 +8,7 @@ export default function Member() {
   return (
     <div
       style={{
-        backgroundImage: `url("./homebackground.jpg")`,
+        backgroundImage: `url("/homebackground.jpg")`,
         width: "100vw", 
         minHeight: "100vh",
         backgroundRepeat: "no-repeat",

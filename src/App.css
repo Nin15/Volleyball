@@ -49,7 +49,7 @@ body,
 .matchespage {
   width: 100%;
   height: 100dvh;
-  background-image: url("./backgroundmatches.jpg");
+  background-image: url("/backgroundmatches.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -149,7 +149,7 @@ h2 {
 }
 
 .divbody {
-  background-image: url("./homebackground.jpg");
+  background-image: url("/homebackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
