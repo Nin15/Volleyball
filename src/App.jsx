@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className=".main-container">
+    <div className="main-container">
       <Routes>
         {/* Login Page - Always Accessible */}
         <Route path="/" element={<Registration />} />

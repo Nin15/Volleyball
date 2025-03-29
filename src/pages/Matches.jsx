@@ -8,7 +8,7 @@ function Matches() {
     <div className="matchespage">
       <Header />
 
-      <div whileHover={{ scale: 1.1 }} className="matchesbackground">
+      <motion.div whileHover={{ scale: 1.1 }} className="matchesbackground">
         <div
           style={{
             width: "100%",
@@ -32,7 +32,7 @@ function Matches() {
             <h1>No matches available</h1>
           )}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
