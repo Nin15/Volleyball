@@ -1,5 +1,5 @@
 import React from "react";
-import matches from "../matches.js";
+import matches from "../Matches.js";
 import Header from "../components/Header.jsx";
 import { motion } from "framer-motion";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import members from "../members.js";
+import members from "../Members.js";
 import Header from "../components/Header.jsx";
 import "../App.css";
 import { motion } from "framer-motion";
