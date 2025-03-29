@@ -1,0 +1,267 @@
+.divs {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  background-color: #000000;
+  opacity: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Verdana, sans-serif;
+  animation: smaller 0.35s ease-in-out forwards;
+  font-size: 2.3em;
+}
+
+* {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.Headerspan {
+  font-size: 3em;
+  width: 500px;
+  color: rgb(255, 157, 0);
+  text-shadow: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.matchesbackground {
+  width: 100vw;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: large3 0.35s ease-in-out forwards;
+}
+
+.matchespage {
+  width: 100%;
+  height: 100dvh;
+  background-image: url("./backgroundmatches.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #00000088;
+  top: 0px;
+  width: 100vw;
+  height: 80px;
+  color: rgb(255, 157, 0);
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.cardcontainer {
+  width: 1200px;
+  height: 1000px;
+  border-radius: 30px;
+  border: 3px solid white;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.matches {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.match-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.matchescard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-card h2 {
+  font-size: 15px;
+}
+.match-card h1 {
+  font-size: 20px;
+}
+.background {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: calc(100dvh + 15px);
+  left: 1210px;
+}
+
+.divbody {
+  background-image: url("./homebackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img2 {
+  width: 170px;
+  height: 150px;
+}
+
+.Members {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  background-color: #00000000;
+  color: white;
+  font-size: 0.5em;
+  border-radius: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  background-color: #00000000;
+  color: white;
+  font-size: 0.5em;
+  border: 2px solid rgb(255, 255, 255);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.divs:hover {
+  cursor: pointer;
+  animation: enlarge 0.15s ease-in-out forwards;
+  box-shadow: 0px 0px 70px rgb(255, 255, 255);
+}
+
+.memberss {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  animation: large3 0.55s ease-in-out forwards;
+}
+span {
+  cursor: pointer;
+  font-size: 2.5em;
+  font-weight: 500;
+  z-index: 4;
+  animation: large3 0.15s ease-in-out forwards;
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes smaller {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes large2 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes large3 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
