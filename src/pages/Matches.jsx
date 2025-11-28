@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 
 function Matches() {
   return (
-    <div className="matchespage">
+    <div className="matchespage"
+    
+    >
       <Header />
 
       <motion.div whileHover={{ scale: 1.1 }} className="matchesbackground">

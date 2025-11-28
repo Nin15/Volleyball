@@ -26,6 +26,7 @@ body,
   padding: 0;
   overflow-x: hidden;
   max-width: 100vw;
+  min-height: screen;
 }
 
 .Headerspan {
@@ -115,8 +116,8 @@ h2 {
   flex-wrap: wrap;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 40px;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   margin: 10px;
   cursor: pointer;
   justify-content: center;
